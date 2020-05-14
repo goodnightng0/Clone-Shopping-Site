@@ -1,0 +1,150 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #f3f7fa;
+}
+.header {
+  position: fixed;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.left-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+.gender {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+}
+#women {
+  padding: 0 5px;
+}
+#men {
+  padding: 0 5px;
+}
+.middle-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 360px;
+}
+.shop {
+  padding: 0 20px;
+  font-size: 15px;
+}
+.item {
+  padding: 0 20px;
+  font-size: 15px;
+}
+.sale {
+  padding: 0 20px;
+  font-size: 15px;
+}
+.more {
+  padding: 0 20px;
+  font-size: 15px;
+}
+.right-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+.login {
+  margin-left: 10px;
+}
+.searchbar {
+  width: 180px;
+  margin-left: 20px;
+}
+.two-options {
+  padding-top: 80px;
+  display: flex;
+  width: 938px;
+  margin: auto;
+  height: 46px;
+}
+.soho {
+  border: 1px solid #e0e4e6;
+  width: 100%;
+  line-height: 46px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #ff6b00;
+  font-weight: 700;
+  font-size: 14px;
+}
+.brand {
+  border: 1px solid #e0e4e6;
+  width: 100%;
+  line-height: 46px;
+  text-align: center;
+  color: #909090;
+  font-weight: 700;
+  font-size: 14px;
+}
+.filter {
+  padding-top: 20px;
+  display: flex;
+  width: 938px;
+  margin: auto;
+  font-size: 11px;
+  align-items: center;
+  justify-content: space-between;
+}
+.category {
+  min-width: 213px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #e0e4e6;
+  padding-left: 11px;
+  display: flex;
+}
+.select-category {
+  padding-left: 5px;
+  color: #ff6b00;
+}
+.shop-search {
+  height: 32px;
+  line-height: 32px;
+  width: 140px;
+  border: 1px solid #e0e4e6;
+  background-color: #ebeef0;
+  text-align: center;
+  color: #909090;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.age {
+  width: 180px;
+  height: 34px;
+  line-height: 34px;
+  display: flex;
+  justify-content: flex-end;
+}
+.age span {
+  border: 1px solid #e0e4e6;
+  width: 45px;
+  text-align: center;
+}
